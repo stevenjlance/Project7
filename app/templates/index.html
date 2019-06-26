@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Wingardium Leviosa</title>
+        <link rel="stylesheet" type="text/css" href="static/style.css">
+    </head>
+    <body>
+        <h1>Sorting Hat</h1>
+        <p>Answer the following questions to determine what Harry Potter house you are.</p>
+        <form method = 'post' action = '/results' name = 'sorting'>
+          <fieldset>
+            <legend>What is your name?</legend>
+            <p>
+              <input type ='text' name = 'name'>
+              <label for 'name'></label>
+            </p>
+          </fieldset>
+          <fieldset>
+            <legend>Pick a color</legend>
+            <p>
+              <!-- HUFFLEPUFF -->
+              <input type='radio' name='color' value = '1'>
+              <label for="color">Yellow</label>
+            </p>
+            <p>
+              <!-- Ravenclaw -->
+              <input type="radio" name="color" value ='3'>
+              <label for="color">Blue</label>
+            </p>
+            <p>
+              <!-- SLYTHERIN -->
+              <input type="radio" name="color" value = '4'>
+              <label for="color">I prefer silver to primary colors</label>
+            </p>
+            <p>
+              <!-- GRYFFINDOR -->
+              <input type="radio" name="color" value = '2'>
+              <label for="color">Red</label>
+            </p>
+          </fieldset>
+          <fieldset>
+            <legend>Pick a Fantasy Series</legend>
+            <p>
+              <!-- SLYTHERIN -->
+              <input type="radio" name="show" value = 4>
+              <label for="show">Game of Thones</label>
+            </p>
+              <!-- Ravenclaw -->
+              <input type="radio" name="show" value = 3>
+              <label for="show">Lord of the Rings</label>
+            </p>
+            <p>
+              <!-- HUFFLEPUFF -->
+              <input type="radio" name="show" value = 1>
+              <label for="show">Twilight</label>
+            </p>
+            <p>
+              <!-- GRYFFINDOR -->
+              <input type="radio" name="show" value = 2>
+              <label for="show">Hunger Games</label>
+            </p>
+            <p>
+          </fieldset>
+          <fieldset>
+            <legend>Which vice do you identify with?</legend>
+            <p>
+              <!-- SLYTHERIN -->
+              <input type="radio" name="vice" value = 4>
+              <label for="vice">Self-Preservation</label>
+            </p>
+            <p>
+              <!-- GRYFFINDOR -->
+              <input type="radio" name="vice" value = 2>
+              <label for="vice">Self-Righteousness</label>
+            </p>
+            <p>
+              <!-- Ravenclaw -->
+              <input type="radio" name="vice" value = 3>
+              <label for="vice">Arrogant</label>
+            </p>
+            <p>
+              <!-- HUFFLEPUFF -->
+              <input type="radio" name="vice" value = 1>
+              <label for="vice">Lack of Drive</label>
+            </p>
+          </fieldset>
+          <fieldset>
+            <legend>Pick a food</legend>
+            <p>
+              <!-- GRYFFINDOR -->
+              <input type="radio" name="food" value = 2>
+              <label for="food">Pasta</label>
+            </p>
+            <p>
+              <!-- SLYTHERIN -->
+              <input type="radio" name="food" value = 4>
+              <label for="food">Steak</label>
+            </p>
+            <p>
+              <!-- Ravenclaw -->
+              <input type="radio" name="food" value = 3>
+              <label for="food">Burger</label>
+            </p>
+            <p>
+              <!-- HUFFLEPUFF -->
+              <input type="radio" name="food" value = 1>
+              <label for="food">Pizza</label>
+            </p>
+          </fieldset>
+          <fieldset>
+            <legend>Pick the best Harry Potter book.</legend>
+            <p>
+              <!-- HUFFLEPUFF -->
+              <input type="radio" name="book" value = 1>
+              <label for="book">Book 7: The Deathly Hallows</label>
+            </p>
+            <p>
+              <!-- SLYTHERIN -->
+              <input type="radio" name="book" value = 4>
+              <label for="book">Book 6: The Half Blood Prince</label>
+            </p>
+            <p>
+              <!-- Ravenclaw -->
+              <input type="radio" name="book" value = 3>
+              <label for="book">Book 5: The Order of the Pheoenix</label>
+            </p>
+            <p>
+              <!-- GRYFFINDOR -->
+              <input type="radio" name="book" value = 2>
+              <label for="book">Book 4: The Goblet of Fire</label>
+            </p>
+          </fieldset>
+          <input type = 'submit'>
+        </form>
+    </body>
+</html>
