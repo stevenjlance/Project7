@@ -1,7 +1,7 @@
 label {
 display:block;
 position:relative;
-padding-left:120px; /* adjust if necessary */
+padding-left: 20px; /* adjust if necessary */
 }
 
 label > span {
